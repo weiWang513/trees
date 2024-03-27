@@ -33,16 +33,24 @@ body {
 }
 
 @font-face {
-  font-family: 'Alum-Bold';
-  src: url('/fonts/AlumniSans-Bold.ttf');
+  font-family: "Alum-Bold";
+  src: url("/fonts/AlumniSans-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Alum';
-  src: url('/fonts/AlumniSans-Medium.ttf');
+  font-family: "Alum";
+  src: url("/fonts/AlumniSans-Medium.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #00ff0a;
+}
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #131313;
+  border-color: #00ff0a;
+  background: #00ff0a;
+}

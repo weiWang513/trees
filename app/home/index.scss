@@ -186,12 +186,12 @@
     padding-top: 80px;
   }
 
-  :where(.css-dev-only-do-not-override-djtmh8).ant-btn-primary:not(
+  .ant-btn-primary:not(
       :disabled
     ):not(.ant-btn-disabled):hover {
     background: #00ff0a;
   }
-  :where(.css-dev-only-do-not-override-djtmh8).ant-btn-default:not(
+  .ant-btn-default:not(
       :disabled
     ):not(.ant-btn-disabled):hover {
     color: #131313;
