@@ -143,15 +143,6 @@ export default function Reward() {
       </div>
       <div className="inf relative m-auto flex flex-col items-center">
         <Image
-          src="/images/b.png"
-          alt="inf"
-          className="absolute inset-x-0px top-0px z-0"
-          width={1920}
-          height={305}
-          priority
-          quality={100}
-        />
-        <Image
           src="/images/l-bg.png"
           alt="l-bg"
           className="absolute g-circle-t"

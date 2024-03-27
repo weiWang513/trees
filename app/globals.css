@@ -25,6 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
   color: #fff;
+  min-width: 1560px;
 }
 
 @layer utilities {

@@ -100,7 +100,7 @@ export default function Home() {
         /> */}
       </div>
       <div className="inf relative m-auto flex flex-col items-center">
-        <Image
+        {/* <Image
           src="/images/b.png"
           alt="inf"
           className="absolute inset-x-0px top-0px z-0"
@@ -108,7 +108,7 @@ export default function Home() {
           height={305}
           priority
           quality={100}
-        />
+        /> */}
         <p className="m-auto text-[#00FF0A] text-center text-5xl relative">
           Trees Protocal
         </p>

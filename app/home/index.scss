@@ -51,9 +51,11 @@
     z-index: 2;
   }
   .inf {
-    width: 1920px;
     padding-top: 180px;
     /* justify-content: space-between; */
+    background: url("/images/b.png") no-repeat;
+    background-size: 1920px 210px;
+    background-position: top center;
   }
   .locl {
     width: 1100px;
@@ -177,15 +179,6 @@
     background: url("/images/op-2-a.png") no-repeat;
     background-size: contain;
   }
-
-  .foot {
-    width: 1920px;
-    height: 210px;
-    background: url("/images/b1-a.png") no-repeat;
-    background-size: contain;
-    padding-top: 80px;
-  }
-
   .ant-btn-primary:not(
       :disabled
     ):not(.ant-btn-disabled):hover {

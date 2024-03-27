@@ -1,9 +1,10 @@
 .footer {
   .foot {
-    width: 1920px;
+    // width: 1920px;
     height: 210px;
     background: url("/images/b1-a.png") no-repeat;
-    background-size: contain;
+    background-size: 1920px 210px;
+    background-position: center;
     padding-top: 80px;
   } 
 }
