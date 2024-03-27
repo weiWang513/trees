@@ -9,6 +9,9 @@
   /* background-color: #0d0d0d; */
   .ant-btn {
     font-family: "Alum";
+    height: 48px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .t-content {
     width: 1559px;
@@ -25,7 +28,7 @@
     height: 336px;
     border-radius: 50%;
     border: 1px solid #00ff0a;
-    animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
   }
   .g-c-a {
     top: 102px;
@@ -40,8 +43,11 @@
     0% {
       transform: rotate(0deg);
     }
+    50% {
+      transform: rotate(-90deg);
+    }
     100% {
-      transform: rotate(360deg);
+      transform: rotate(0deg);
     }
   }
   .t-a {
@@ -60,6 +66,28 @@
   .locl {
     width: 1100px;
     height: 602px;
+    .locl-line-0 {
+      top: 0px;
+      left: 100px;
+      // width: 329px;
+      // height: 211px;
+    }
+    .locl-line-1 {
+      top: -0;
+      left: 550px;
+    }
+    .locl-line-2 {
+      top: -0;
+      right: 100px;
+    }
+    .locl-o {
+      img {
+        visibility: hidden;
+      }
+      &:hover img {
+        visibility: visible;
+      }
+    }
   }
   .table-i {
     width: 1440px;
@@ -83,6 +111,18 @@
     background-size: contain;
   }
   .l:hover .rulers-line {
+    width: 702px;
+    height: 202px;
+    background: url("/images/rulers-line-a.png") no-repeat;
+    background-size: contain;
+  }
+  .rulers-line {
+    left: 0;
+    bottom: 28px;
+    width: 702px;
+    height: 202px;
+    background: url("/images/rulers-line.png") no-repeat;
+    background-size: contain;
   }
   .r {
     flex: 0 0 700px;
@@ -96,14 +136,20 @@
     height: 511px;
     background: url("/images/rulers1-a.png") no-repeat;
     background-size: contain;
-  }
-  .rulers-line {
-    left: 0;
-    bottom: 28px;
+    .rulers-line1 {
+      width: 700px;
+      height: 99px;
+      background: url("/images/rulers-line1-a.png") no-repeat;
+      background-size: contain;
+    }
   }
   .rulers-line1 {
     right: 0;
     bottom: 135px;
+    width: 700px;
+    height: 99px;
+    background: url("/images/rulers-line1.png") no-repeat;
+    background-size: contain;
   }
   .rulers-i {
     right: 48px;

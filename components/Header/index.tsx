@@ -118,7 +118,7 @@ const Header = () => {
 
   const cModalChild = (
     <div className="flex flex-col items-center">
-      <p className="text-center text-[#fff] text-5xl">Connect Wallet</p>
+      <p className="text-center text-[#00ff0a] text-5xl">Connect Wallet</p>
       <p className="text-center text-[#fff] mt-24px">
         Connecting your wallet is like "logging in" on Web3. Select your wallet
         from the options to get started.nstalled MetaMask but can't connect? Go
@@ -155,7 +155,7 @@ const Header = () => {
 
   const socialChild = (
     <div className="flex flex-col items-center py-24px relative">
-      <p className="text-4xl text-[#fff]">Social</p>
+      <p className="text-4xl text-[#00ff0a]">Social</p>
       <CompC />
       <Image
         src="/images/close.png"
@@ -224,7 +224,7 @@ const Header = () => {
   );
 
   return (
-    <div className="header flex px-240px items-center justify-between h-70px bg-opacity-70 bg-[#131313] fixed inset-x-0px top-0px">
+    <div className="header flex px-240px items-center justify-between h-70px bg-opacity-90 bg-[#131313] fixed inset-x-0px top-0px">
       <Image
         src="/images/logo.png"
         alt="Logo"

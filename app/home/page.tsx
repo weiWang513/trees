@@ -28,6 +28,8 @@ export default function Home() {
   ];
   const [activeKeys, setActiveKeys] = useState<number[]>([]);
 
+  
+
   return (
     <div className="home">
       <Header />
@@ -59,7 +61,10 @@ export default function Home() {
             Seed Inscription
           </p>
           <div className="flex flex-row mt-10px">
-            <Button className="bg-[#fff] text-[#131313] mr-24px text-lg leading-5">
+            <Button
+              size="large"
+              className="bg-[#fff] text-[#131313] mr-24px text-lg leading-5"
+            >
               Mint
             </Button>
             <Button
@@ -127,7 +132,7 @@ export default function Home() {
         >
           Read Whitepaper
         </Button>
-        <div className="m-auto locl relative mt-48px flex flex-row items-center justify-between pt-48px">
+        <div className="m-auto locl relative flex flex-row items-center justify-between pt-48px">
           <Image
             src="/images/cBg.png"
             alt="inf"
@@ -137,11 +142,28 @@ export default function Home() {
             priority
             quality={100}
           />
-          {[1, 1, 1].map((_, i) => (
-            <div key={i} className="flex items-center justify-center locl-op-c">
-              <div className={`relative z-10 cursor-pointer locl-op-${i}`} />
-            </div>
-          ))}
+          {[1, 1, 1].map((_, i) => {
+            const w = i !== 1 ? 329 : 6;
+            const h = i !== 1 ? 211 : 175;
+            return (
+              <div className="locl-o" key={i}>
+                <Image
+                  src={`/images/line-${i}.png`}
+                  alt="locl"
+                  width={w}
+                  height={h}
+                  priority
+                  quality={100}
+                  className={`absolute locl-line-${i}`}
+                />
+                <div className="flex items-center justify-center locl-op-c relative">
+                  <div
+                    className={`relative z-10 cursor-pointer locl-op-${i}`}
+                  />
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
       <div className="table-i flex flex-row relative m-auto items-end justify-between">
@@ -174,15 +196,7 @@ export default function Home() {
           <p className="text-[#fff] leading-relaxed text-xl">
             Single Mint fee: 0.1sol+sol real-time gas fee
           </p>
-          <Image
-            src="/images/rulers-line.png"
-            alt="rulers-line"
-            className="absolute rulers-line"
-            width={702}
-            height={72}
-            priority
-            quality={100}
-          />
+          <div className="absolute rulers-line" />
           <Image
             src="/images/rulers-i.png"
             alt="rulers-i"
@@ -207,15 +221,7 @@ export default function Home() {
           <p className="text-[#fff] leading-relaxed text-xl text-right">
             of seed lnscription rewards based on the total pointsearned
           </p>
-          <Image
-            src="/images/rulers-line1.png"
-            alt="rulers-line1"
-            className="absolute rulers-line1"
-            width={700}
-            height={99}
-            priority
-            quality={100}
-          />
+          <div className="absolute rulers-line1" />
           <Image
             src="/images/rulers1-bg.png"
             alt="rulers1-bg"
@@ -237,6 +243,7 @@ export default function Home() {
             height={54}
             priority
             quality={100}
+            className="ml-10px mr-10px"
           />
           A
         </div>
