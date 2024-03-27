@@ -42,7 +42,7 @@ export default function Reward() {
       <div className="m-auto t-content flex flex-row items-center justify-between relative">
         <div className="flex flex-col items-start justify-center		">
           <div className="flex flex-row items-baseline relative">
-            <p className="text-[#fff] text-8xl">SEED Inscription</p>
+            <p className="text-[#fff] text-6xl">SEED Inscription</p>
             <Image
               src="/images/g-cir.png"
               alt="Logo"
@@ -95,7 +95,7 @@ export default function Reward() {
           </div>
         </div>
 
-        <div className="hr relative p-24px flex flex-col">
+        <div className="hr relative">
           <Image
             src="/images/l-bg.png"
             alt="Logo"
@@ -123,10 +123,12 @@ export default function Reward() {
             priority
             quality={100}
           />
-          <p className="flex-1 text-5xl text-[#00FF0A] hr-line">My trees</p>
-          <p className="flex-1 text-5xl text-[#00FF0A] text-right flex flex-col justify-end">
-            <span>1000</span>
-          </p>
+          <div className="hr-ta flex flex-col p-24px">
+            <p className="flex-1 text-5xl text-[#00FF0A] hr-line">My trees</p>
+            <p className="flex-1 text-5xl text-[#00FF0A] text-right flex flex-col justify-end">
+              <span>1000</span>
+            </p>
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-center text-3xl">

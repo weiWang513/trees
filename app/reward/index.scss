@@ -18,13 +18,16 @@
   }
   .hr {
     flex: 0 0 517px;
-    height: 278px;
-    border-radius: 16px;
-    border: 1px solid rgba(0, 255, 10, 1);
+    &-ta {
+      height: 278px;
+      border-radius: 16px;
+      border: 1px solid rgba(0, 255, 10, 1);
+      backdrop-filter: blur(15px);
+    }
   }
   .g-c {
-    top: -15px;
-    right: -40px;
+    top: -35px;
+    right: -210px;
   }
   .g-c-r {
     top: 0;
@@ -43,8 +46,9 @@
     left: -70px;
   }
   .hr-rward-tm {
-    right: -70px;
-    top: -70px;
+    right: -62px;
+    top: -66px;
+    z-index: 2;
   }
   .hr-g-rward-circle {
     right: -140px;
@@ -82,6 +86,13 @@
     background: url("/images/b.png") no-repeat;
     background-size: 1920px 210px;
     background-position: top center;
+    .g-circle-t {
+      top: 300px;
+      // left: 760px;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+    }
   }
   .locl {
     width: 1100px;
@@ -91,12 +102,7 @@
     width: 1440px;
     height: 589px;
   }
-  .g-circle-t {
-    // top: 50px;
-    left: 760px;
-    width: 400px;
-    height: 400px;
-  }
+
   .l {
     flex: 0 0 700px;
     height: 511px;
@@ -167,7 +173,7 @@
     height: 160px;
     opacity: 1;
   }
-  
+
   .locl-op-c {
     width: 200px;
     height: 242px;
@@ -209,14 +215,10 @@
     background-size: contain;
   }
 
-  .ant-btn-primary:not(
-      :disabled
-    ):not(.ant-btn-disabled):hover {
+  .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
     background: #00ff0a;
   }
-  .ant-btn-default:not(
-      :disabled
-    ):not(.ant-btn-disabled):hover {
+  .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
     color: #131313;
     border-color: #00ff0a;
     background: #00ff0a;
@@ -251,7 +253,7 @@
       border-color: #00ff0a;
       background: rgba(0, 255, 10, 0.1);
       .ti,
-      .line-i:first-child{
+      .line-i:first-child {
         color: #00ff0a;
       }
     }
