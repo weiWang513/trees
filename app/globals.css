@@ -49,8 +49,8 @@ body {
 .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
   background: #00ff0a;
 }
-.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+/* .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
   color: #131313;
   border-color: #00ff0a;
   background: #00ff0a;
-}
+} */
