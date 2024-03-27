@@ -145,8 +145,8 @@ export default function Home() {
           src="/images/l-bg.png"
           alt="l-bg"
           className="absolute g-circle-t"
-          width={1000}
-          height={1000}
+          width={800}
+          height={800}
           priority
         />
         <div className="l relative">

@@ -142,6 +142,14 @@ export default function Reward() {
           height={305}
           priority
         />
+        <Image
+          src="/images/l-bg.png"
+          alt="l-bg"
+          className="absolute g-circle-t"
+          width={800}
+          height={800}
+          priority
+        />
         <div className="tables flex flex-row relative justify-between">
           <div className="ta-l flex-1">
             <p className="text-[#00FF0A] t-border t-h-text text-3xl">
