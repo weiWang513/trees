@@ -1,8 +1,7 @@
 import Image from "next/image";
 import "./index.scss";
-import CompC from './compC'
+import CompC from "./compC";
 export default function Footer({ inner }: any) {
-  
   return (
     <div className="footer">
       {inner ? <></> : <CompC />}
@@ -15,6 +14,7 @@ export default function Footer({ inner }: any) {
             alt="Logo"
             width={215}
             height={31}
+            quality={100}
             priority
           />
         )}

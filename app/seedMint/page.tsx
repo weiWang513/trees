@@ -18,6 +18,7 @@ export default function SeedMint() {
         width={600}
         height={600}
         priority
+        quality={100}
       />
       <Image
         src="/images/l-bg.png"
@@ -26,6 +27,7 @@ export default function SeedMint() {
         width={400}
         height={400}
         priority
+        quality={100}
       />
       <div className="main">
         <div className="seed pt-70px">
@@ -35,7 +37,8 @@ export default function SeedMint() {
             <span className="z-20 relative">
               Trees Protocol Inscription is an introduction that covers all
               developments within the ecosystem. Introducing Introducing,
-              providing exclusive access to cutting-edge data and tools, ensuring.
+              providing exclusive access to cutting-edge data and tools,
+              ensuring.
             </span>
             <Image
               src="/images/mint-h.png"
@@ -44,6 +47,7 @@ export default function SeedMint() {
               width={104}
               height={104}
               priority
+              quality={100}
             />
             <Image
               src="/images/l-bg.png"
@@ -52,6 +56,7 @@ export default function SeedMint() {
               width={400}
               height={400}
               priority
+              quality={100}
             />
           </p>
         </div>
@@ -62,6 +67,7 @@ export default function SeedMint() {
           width={950}
           height={326}
           priority
+          quality={100}
         />
         <div className="m-auto flex flex-col items-center">
           <p className="text-center text-3xl mt-48px">MINT FEE: 0.1SOL+GAS</p>

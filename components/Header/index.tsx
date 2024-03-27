@@ -138,6 +138,7 @@ const Header = () => {
                   width={32}
                   height={32}
                   priority
+                  quality={100}
                 />
               </div>
               <p className="text-center text-[#fff]">{e.name}</p>
@@ -212,7 +213,9 @@ const Header = () => {
             />
             <p className="text-center text-[#fff] text-3xl ml-10px flex flex-col items-start ml-24px">
               <span className="text-3xl">{chain.name}</span>
-              {indexChainList === i && <span className="text-xl">Connected</span>}
+              {indexChainList === i && (
+                <span className="text-xl">Connected</span>
+              )}
             </p>
           </div>
         ))}

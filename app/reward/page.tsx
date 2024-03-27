@@ -37,6 +37,7 @@ export default function Reward() {
         width={600}
         height={600}
         priority
+        quality={100}
       />
       <div className="m-auto t-content flex flex-row items-center justify-between relative">
         <div className="flex flex-col items-start justify-center		">
@@ -49,6 +50,7 @@ export default function Reward() {
               width={75}
               height={75}
               priority
+              quality={100}
             />
           </div>
           <p className="text-[#00FF0A] text-8xl">Invitation Reward</p>
@@ -68,6 +70,7 @@ export default function Reward() {
                   height={18}
                   className="mr-10px"
                   priority
+                  quality={100}
                 />
                 Share on Twitter
               </div>
@@ -84,6 +87,7 @@ export default function Reward() {
                   height={18}
                   className="mr-10px"
                   priority
+                  quality={100}
                 />
                 Share on Telegram
               </div>
@@ -99,6 +103,7 @@ export default function Reward() {
             width={150}
             height={150}
             priority
+            quality={100}
           />
           <Image
             src="/images/l-bg.png"
@@ -107,6 +112,7 @@ export default function Reward() {
             width={250}
             height={250}
             priority
+            quality={100}
           />
           <Image
             src="/images/rward-tm.png"
@@ -115,6 +121,7 @@ export default function Reward() {
             width={150}
             height={150}
             priority
+            quality={100}
           />
           <p className="flex-1 text-5xl text-[#00FF0A] hr-line">My trees</p>
           <p className="flex-1 text-5xl text-[#00FF0A] text-right flex flex-col justify-end">
@@ -131,6 +138,7 @@ export default function Reward() {
           width={24}
           height={24}
           priority
+          quality={100}
         />
       </div>
       <div className="inf relative m-auto flex flex-col items-center">
@@ -141,6 +149,7 @@ export default function Reward() {
           width={1920}
           height={305}
           priority
+          quality={100}
         />
         <Image
           src="/images/l-bg.png"
@@ -149,6 +158,7 @@ export default function Reward() {
           width={800}
           height={800}
           priority
+          quality={100}
         />
         <div className="tables flex flex-row relative justify-between">
           <div className="ta-l flex-1">

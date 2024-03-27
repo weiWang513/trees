@@ -1,3 +1,3 @@
 export default function reward () {
-    return <div>reward</div>
+    return <div>social</div>
 }

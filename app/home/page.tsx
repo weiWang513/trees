@@ -38,6 +38,7 @@ export default function Home() {
         width={600}
         height={600}
         priority
+        quality={100}
       />
       <div className="m-auto t-content flex flex-row items-center relative">
         <div className="flex flex-col items-start justify-center		">
@@ -50,6 +51,7 @@ export default function Home() {
               className="absolute g-c"
               width={200}
               height={200}
+              quality={100}
               priority
             />
           </div>
@@ -57,9 +59,7 @@ export default function Home() {
             Seed Inscription
           </p>
           <div className="flex flex-row mt-10px">
-            <Button
-              className="bg-[#fff] text-[#131313] mr-24px text-lg leading-5"
-            >
+            <Button className="bg-[#fff] text-[#131313] mr-24px text-lg leading-5">
               Mint
             </Button>
             <Button
@@ -78,6 +78,7 @@ export default function Home() {
           width={484}
           height={489}
           priority
+          quality={100}
         />
         <div className="g-c-r absolute flex items-center justify-center">
           <Image
@@ -86,6 +87,7 @@ export default function Home() {
             width={16}
             height={129}
             priority
+            quality={100}
           />
         </div>
         {/* <Image
@@ -105,6 +107,7 @@ export default function Home() {
           width={1920}
           height={305}
           priority
+          quality={100}
         />
         <p className="m-auto text-[#00FF0A] text-center text-5xl relative">
           Trees Protocal
@@ -132,6 +135,7 @@ export default function Home() {
             width={1099}
             height={602}
             priority
+            quality={100}
           />
           {[1, 1, 1].map((_, i) => (
             <div key={i} className="flex items-center justify-center locl-op-c">
@@ -148,6 +152,7 @@ export default function Home() {
           width={800}
           height={800}
           priority
+          quality={100}
         />
         <div className="l relative">
           <p className="text-[#00FF0A] text-2xl leading-relaxed mb-10px text-5xl">
@@ -176,6 +181,7 @@ export default function Home() {
             width={702}
             height={72}
             priority
+            quality={100}
           />
           <Image
             src="/images/rulers-i.png"
@@ -184,6 +190,7 @@ export default function Home() {
             width={246}
             height={277}
             priority
+            quality={100}
           />
         </div>
         <div className="r relative">
@@ -207,6 +214,7 @@ export default function Home() {
             width={700}
             height={99}
             priority
+            quality={100}
           />
           <Image
             src="/images/rulers1-bg.png"
@@ -215,6 +223,7 @@ export default function Home() {
             width={602}
             height={216}
             priority
+            quality={100}
           />
         </div>
       </div>
@@ -227,6 +236,7 @@ export default function Home() {
             width={32}
             height={54}
             priority
+            quality={100}
           />
           A
         </div>
@@ -251,6 +261,7 @@ export default function Home() {
                   width={30}
                   height={30}
                   priority
+                  quality={100}
                   className="cursor-pointer"
                   onClick={() => {
                     if (isActive) {
