@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex flex-col items-start justify-center		">
           <div className="flex flex-row items-baseline relative">
             <p className="text-[#00FF0A] text-8xl">Trees Protocol</p>
-            <p className="text-[#fff] text-6xl ml-10px">Powered by Solana</p>
+            <p className="text-[#fff] text-6xl ml-10px">Powered by <span className="text-[#00FF0A]">Solana</span></p>
             <Image
               src="/images/g-cir.png"
               alt="Logo"
@@ -63,12 +63,12 @@ export default function Home() {
           <div className="flex flex-row mt-10px">
             <Button
               size="large"
-              className="bg-[#fff] text-[#131313] mr-24px text-lg leading-5"
+              className="bg-[#fff] text-[#131313] mr-24px text-3xl leading-5"
             >
               Mint
             </Button>
             <Button
-              className="bg-[#05EB00] text-[#131313] text-lg leading-5"
+              className="bg-[#05EB00] text-[#131313] text-3xl leading-5"
               type="primary"
             >
               Get Reward
@@ -127,7 +127,7 @@ export default function Home() {
           space for deployers of special assets.
         </p>
         <Button
-          className="bg-[#05EB00] text-[#131313] m-auto mt-48px text-lg leading-5"
+          className="bg-[#05EB00] text-[#131313] m-auto mt-48px text-2xl leading-5"
           type="primary"
         >
           Read Whitepaper
@@ -181,20 +181,20 @@ export default function Home() {
             MINT Rules
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Trees Protocol Inscription Public Chain: Solana
+            Trees Protocol Inscription Public Chain: <span className="text-[#00FF0A]">Solana</span> 
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
             Trees Protocol Inscription Name: Seed
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Total number of inscriptions: 40000 (1905 are rewards distributed by
+            Total number of inscriptions: <span className="text-[#00FF0A]">40000</span>  (1905 are rewards distributed by
             the invite)
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Single sheet: 10000 tokens
+            Single sheet: <span className="text-[#00FF0A]">10000 tokens</span>
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Single Mint fee: 0.1sol+sol real-time gas fee
+            Single Mint fee: <span className="text-[#00FF0A]">0.1sol+sol real-time gas fee</span>
           </p>
           <div className="absolute rulers-line" />
           <Image

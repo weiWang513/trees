@@ -10,10 +10,10 @@ export default function Footer({ inner }: any) {
           <CompC />
         ) : (
           <Image
-            src="/images/logo-l.png"
+            src="/images/logo.png"
             alt="Logo"
-            width={68}
-            height={68}
+            width={164}
+            height={40}
             quality={100}
             priority
           />
