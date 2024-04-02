@@ -28,8 +28,6 @@ export default function Home() {
   ];
   const [activeKeys, setActiveKeys] = useState<number[]>([]);
 
-  
-
   return (
     <div className="home">
       <Header />
@@ -46,7 +44,9 @@ export default function Home() {
         <div className="flex flex-col items-start justify-center		">
           <div className="flex flex-row items-baseline relative">
             <p className="text-[#00FF0A] text-8xl">Trees Protocol</p>
-            <p className="text-[#fff] text-6xl ml-10px">Powered by <span className="text-[#00FF0A]">Solana</span></p>
+            <p className="text-[#fff] text-6xl ml-10px">
+              Powered by <span className="text-[#00FF0A]">Solana</span>
+            </p>
             <Image
               src="/images/g-cir.png"
               alt="Logo"
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Image
+        {/* <Image
           src="/images/tAnimation.png"
           alt="Logo"
           className="t-a"
@@ -84,7 +84,7 @@ export default function Home() {
           height={489}
           priority
           quality={100}
-        />
+        /> */}
         <div className="g-c-r absolute flex items-center justify-center">
           <Image
             src="/images/g-cir-a.png"
@@ -94,6 +94,68 @@ export default function Home() {
             priority
             quality={100}
           />
+        </div>
+        <div className="a-main-i absolute">
+          <div className="inner">
+            <Image
+              src="/images/a-main-i.png"
+              alt=""
+              className="a-main"
+              width={384}
+              height={391}
+              priority
+              quality={100}
+            />
+            <Image
+              src="/images/light-line.png"
+              alt=""
+              className="a-main-line absolute"
+              width={25}
+              height={25}
+              priority
+              quality={100}
+            />
+            <Image
+              src="/images/light.png"
+              alt=""
+              className="light0 absolute"
+              width={20}
+              height={20}
+              priority
+              quality={100}
+            />
+            <Image
+              src="/images/light.png"
+              alt=""
+              className="light1 absolute"
+              width={37}
+              height={37}
+              priority
+              quality={100}
+            />
+            <Image
+              src="/images/light.png"
+              alt=""
+              className="light2 absolute"
+              width={12}
+              height={12}
+              priority
+              quality={100}
+            />
+            <Image
+              src="/images/light.png"
+              alt=""
+              className="light3 absolute"
+              width={45}
+              height={45}
+              priority
+              quality={100}
+            />
+
+            <div className="cir">
+              <div className="cir-inner"></div>
+            </div>
+          </div>
         </div>
         {/* <Image
           src="/images/g-cir.png"
@@ -181,20 +243,23 @@ export default function Home() {
             MINT Rules
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Trees Protocol Inscription Public Chain: <span className="text-[#00FF0A]">Solana</span> 
+            Trees Protocol Inscription Public Chain:{" "}
+            <span className="text-[#00FF0A]">Solana</span>
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
             Trees Protocol Inscription Name: Seed
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Total number of inscriptions: <span className="text-[#00FF0A]">40000</span>  (1905 are rewards distributed by
-            the invite)
+            Total number of inscriptions:{" "}
+            <span className="text-[#00FF0A]">40000</span> (1905 are rewards
+            distributed by the invite)
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
             Single sheet: <span className="text-[#00FF0A]">10000 tokens</span>
           </p>
           <p className="text-[#fff] leading-relaxed text-xl">
-            Single Mint fee: <span className="text-[#00FF0A]">0.1sol+sol real-time gas fee</span>
+            Single Mint fee:{" "}
+            <span className="text-[#00FF0A]">0.1sol+sol real-time gas fee</span>
           </p>
           <div className="absolute rulers-line" />
           <Image
