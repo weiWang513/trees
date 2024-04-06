@@ -16,6 +16,7 @@
   .t-content {
     width: 1559px;
     height: 640px;
+    overflow: hidden;
   }
   .g-c {
     top: -45px;
@@ -130,7 +131,7 @@
     height: 511px;
     background: url("/images/rulers1.png") no-repeat;
     background-size: contain;
-    padding: 40px;
+    padding: 50px;
   }
   .r:hover {
     flex: 0 0 700px;
@@ -142,6 +143,15 @@
       height: 99px;
       background: url("/images/rulers-line1-a.png") no-repeat;
       background-size: contain;
+    }
+    .tables {
+      border-color: #00ff0a;
+      .line {
+        border-color: #00ff0a;
+        &-i {
+          border-color: #00ff0a;
+        }
+      }
     }
   }
   .rulers-line1 {
@@ -183,7 +193,6 @@
     padding: 0;
   }
   .open {
-    height: 160px;
     opacity: 1;
   }
   .locl-op-c {
@@ -328,6 +337,41 @@
       }
       50% {
         transform: translateY(10px);
+      }
+    }
+  }
+  .tables {
+    width: 600px;
+    height: 214px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 16px;
+    backdrop-filter: blur(8px);
+    z-index: 2;
+    color: #fff;
+    .line {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      &:last-child {
+        border: none;
+      }
+      &-i {
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        &:last-child {
+          border: none;
+        }
+        &:first-child {
+          // flex: 0 0 75px;
+          // padding: 0 20px;
+        }
+      }
+      i {
+        width: 12px;
+        height: 20px;
+        background: url("/images/g-icon.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
       }
     }
   }

@@ -1,3 +1,5 @@
-export default function reward () {
-    return <div>Whitepaper</div>
+import './index.scss';
+
+export default function whitepaper () {
+    return <div className='whitepaper'>Whitepaper</div>
 }
