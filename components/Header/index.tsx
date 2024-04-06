@@ -264,6 +264,12 @@ const Header = () => {
         >
           Social
         </div>
+        <div
+          onClick={() => window.open("https://trees-protocol.gitbook.io/trees/")}
+          className={`mr-4 flex items-center text-lg hover:text-[#00FF0A] cursor-pointer`}
+        >
+          Docs
+        </div>
         <Button
           className="bg-[#05EB00] text-[#131313] text-lg leading-5"
           type="primary"
