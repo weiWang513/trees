@@ -307,6 +307,7 @@ export default function Home() {
         <Button
           className="bg-[#05EB00] text-[#131313] m-auto mt-48px text-2xl leading-5"
           type="primary"
+          onClick={() => window.open("https://trees-protocol.gitbook.io/trees/")}
         >
           Read Whitepaper
         </Button>
