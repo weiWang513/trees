@@ -32,15 +32,14 @@ export default function SeedMint() {
       <div className="main">
         <div className="seed pt-70px">
           <p className="text-center text-8xl text-[#00FF0A]">SEED</p>
-          <p className="text-3xl text-center mt-24px">Total supply: 40000</p>
+          <p className="text-3xl text-center mt-24px">Total supply: 2100</p>
           <p className="text-center w-1100px text-2xl m-auto mt-24px relative">
             <span className="z-20 relative">
-              Trees Protocol Inscription is an introduction that covers all
-              developments within the ecosystem. Introducing Introducing,
-              providing exclusive access to cutting-edge data and tools,
-              ensuring.
+              The SEED Genesis NFT is a passport to the TREES PROTOCOL
+              ecosystem, and possession of the SEED Genesis NFT will unlock all
+              TREES PROTOCOL entitlements and airdrops.
             </span>
-            <Image
+            {/* <Image
               src="/images/mint-h.png"
               alt="Logo"
               className="m-auto mint-h absolute"
@@ -48,7 +47,7 @@ export default function SeedMint() {
               height={104}
               priority
               quality={100}
-            />
+            /> */}
             <Image
               src="/images/l-bg.png"
               alt="Logo"
@@ -70,7 +69,7 @@ export default function SeedMint() {
           quality={100}
         />
         <div className="m-auto flex flex-col items-center">
-          <p className="text-center text-3xl mt-48px">MINT FEE: 0.1SOL+GAS</p>
+          <p className="text-center text-3xl mt-48px">MINT PRICE: TBA</p>
           <Button
             className="m-auto bg-[#05EB00] text-[#131313] text-2xl leading-5 connect"
             type="primary"
